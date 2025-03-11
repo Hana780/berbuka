@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ms">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Majlis Berbuka Puasa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>You're Invited!</h1>
+        <p> Semua kena pergi ye..kalau tak aku hempuk sorang sorang.</p>
+    </header>
+	
+	<section class="invitation">
+        <h2>Event Details</h2>
+        <p>Come and break your fast with us! Below are the details of the event:</p>
+        <ul>
+            <li><strong>Date:</strong> Friday, 14th Mac 2025</li>
+            <li><strong>Time:</strong> 4:45 PM</li>
+            <li><strong>Location:</strong> Ayam Gepuk Top Global Strand Mall</li>
+        </ul>
+    </section>
+
+    <section class="rsvp">
+        <h2>RSVP</h2>
+        <p>Let me know if you can make it by filling out the form below:</p>
+		<br>
+        <form id="rsvpForm">
+			
+		 <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+     
+            <label for="attending">Will you be attending?</label>
+            <select id="attending" name="attending">
+                <option value="yes">Yes, I will attend!</option>
+                <option value="no">No, I can't make it</option>
+            </select>
+
+            <button type="submit">RSVP Now</button>
+        </form>
+        <div id="rsvpMessage"></div>
+    </section>
+	
+	<footer>
+        <p>Looking forward to seeing you there!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
